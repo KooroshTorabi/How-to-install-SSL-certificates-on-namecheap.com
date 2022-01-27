@@ -15,7 +15,7 @@
 cat domain.crt domain.ca-bundle >> server.crt
 ```
 
-we have an error after concatenation and insert "enter character" between two content that made in server.crt to fix it  
+we have an error after concatenation and insert "enter character" between two content that made in `**server.crt**` to fix it  
 
 from 
 
