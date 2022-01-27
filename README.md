@@ -7,15 +7,15 @@
 - activate ssl on namecheap or reissue ssl with csr file 
 
 ## Step 3 
-- verify domain with "file upload method"
+- verify domain with `"file upload method"`
 
 ## Step 4 
-- download crt file and ca-bundle and concatenate these together in this way : 
+- download **crt file** and **ca-bundle** and concatenate these together in this way : 
 ```bash
 cat domain.crt domain.ca-bundle >> server.crt
 ```
 
-we have an error after concatenation and insert "enter character" between two content that made in `**server.crt**` to fix it  
+we have an error after concatenation and insert `"enter character"` between two content that made in `server.crt` to fix it  
 
 from 
 
