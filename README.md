@@ -1,4 +1,4 @@
-# How to install SSL certificates on **namecheap.com**
+# How to install SSL certificates on `namecheap.com`
 
 ## Step 1
 - openssl req -new -newkey rsa:2048 -nodes -keyout server.key -out server.csr
