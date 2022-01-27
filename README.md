@@ -1,4 +1,4 @@
-# How to install SSL certificates on *namecheap.com*
+# How to install SSL certificates on **namecheap.com**
 
 ## Step 1
 - openssl req -new -newkey rsa:2048 -nodes -keyout server.key -out server.csr
@@ -31,7 +31,9 @@ to
 ```
 
 ## Step 5
-- we made csr and key file and copy these file on server to this folder : /root/ssl/
+- we made csr and key file and copy these file on server to this folder : `/root/ssl/`
 
 ## Step 6
 - config nginx and test it, if everything is ok you can restart nginx 
+
+
