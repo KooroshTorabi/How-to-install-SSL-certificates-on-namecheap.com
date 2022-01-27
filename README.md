@@ -11,9 +11,13 @@
 
 ## Step 4 
 - download crt file and ca-bundle and concatenate these together in this way : 
-  - cat domain.crt domain.ca-bundle >> server.crt
-    - we have an error after concatenation and insert "enter character" between two content that made in server.crt to fix it  
-    - from 
+```bash
+cat domain.crt domain.ca-bundle >> server.crt
+```
+
+we have an error after concatenation and insert "enter character" between two content that made in server.crt to fix it  
+
+from 
 
 ```CSR
 -----END CERTIFICATE----------BEGIN CERTIFICATE-----
